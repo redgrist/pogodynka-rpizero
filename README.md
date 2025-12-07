@@ -1,12 +1,13 @@
 # pogodynka-rpizero
 
-## po zmianie
+## Po zmianie
 * docker build -t weather-station-weather .
 
-### uruchamianie
+## Uruchamianie
 
 
-docker rm -f weather-station-rumia || true
+* docker rm -f weather-station-rumia || true
+
 docker run -d \
   --name weather-station-rumia \
   -p 5080:5080 \
